@@ -12,7 +12,7 @@
 # the hierarchy.
 #
 
-class Vehicle():
+class Vehicle(): # Base Class
     pass
 
 class GroundVehicle(Vehicle):
