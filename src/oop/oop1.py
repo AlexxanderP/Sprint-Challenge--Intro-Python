@@ -11,6 +11,30 @@
 # Each class can simply "pass" for its body. The exercise is about setting up
 # the hierarchy.
 #
+
+class Vehicle(): # Base Class
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Airplane(FlightVehicle):
+    pass  
+
+class Starship(FlightVehicle):
+    pass
+
+
+
 # e.g.
 #
 # class Whatever:
